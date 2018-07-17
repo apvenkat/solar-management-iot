@@ -1,5 +1,5 @@
 # home-server
-This is our program which will reside on our local server to talk to all our Raspberry Pi gateways
+This is our node js app which will reside on our local server to talk to all our Raspberry Pi gateways
 
 **list.json**
 
