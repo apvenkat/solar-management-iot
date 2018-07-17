@@ -1,0 +1,13 @@
+[
+  {
+    "name": "gateway 1",
+    "description": "display all gateway 1 parameters",
+    "ip": "http://192.168.1.89:8484/pi/solar/"
+  },
+  {
+    "name": "gateway 2",
+    "description": "display all gateway 2 parameters",
+    "ip": "http://192.168.1.90:8484/pi/solar/"
+
+  }
+]

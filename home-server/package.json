@@ -1,0 +1,18 @@
+{
+  "name": "server-code",
+  "version": "1.0.0",
+  "description": "Server code listening to multiple gateways",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "venkat",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "node-json2html": "^1.2.0",
+    "request": "^2.87.0",
+    "simple-json-to-html-converter": "^1.0.7",
+    "tableify": "^1.1.0"
+  }
+}

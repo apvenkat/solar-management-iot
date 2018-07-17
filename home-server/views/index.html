@@ -1,0 +1,39 @@
+<html>
+<body>
+  <head>
+    <title>WoT-TP link Control</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="application/json" src="devices.js"></script>
+    <style>
+    div.a {
+        text-align: center;
+    }
+    div.b {
+        text-align: left;
+    }
+    div.c {
+        text-align: right;
+    }
+    div.d {
+        text-align: justify;
+    }
+    </style>
+  </head>
+  <body>
+
+<div class="a"> <h2>Solar Management System!!</h2></div>
+<div class="a"><h3>Click the button below to access your Solar Gateways</h3></div>
+<br>
+<div class="a">
+<form action="/solar/gateway/0" method="get">
+    <button type="submit" class="btn btn-success">Solar Gateway 1</button>
+    <button type="submit" formmethod="get" formaction=/solar/gateway/1 class="btn btn-success">Solar Gateway 2</button>
+  </form>
+</div>
+</body>
+
+</html>

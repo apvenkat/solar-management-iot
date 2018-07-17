@@ -1,0 +1,43 @@
+{
+  "rpi": {
+    "name": "SBC - Raspberry Pi",
+    "description": "A simple Solar Simulator for demonstrating IoT.",
+    "port": 8484,
+      "solarpanel": {
+        "mac_address": {
+          "description": "Unique ID of SBC-Raspberry pi",
+          "value":0,
+          "timestamp": ""
+          },
+        "solarirradiance": {
+          "description": "Solar irradiance is the power per unit area",
+          "unit": "W/m2",
+          "value": 0
+
+        },
+        "current": {
+          "description": "Measured current value",
+          "unit": "Ampere",
+          "value": 0
+        },
+  	  "voltage": {
+          "description": "Measured voltage value",
+          "unit": "Volt",
+          "value": 0
+
+        },
+        "power": {
+          "description": "Measured power value",
+  		    "unit": "Watts",
+          "value": 0
+
+        },
+        "status": {
+          "description": "status of panel connection to cloud/server",  
+          "value": true
+
+        }
+    }
+
+    }
+  }
