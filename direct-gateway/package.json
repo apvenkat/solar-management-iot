@@ -35,7 +35,7 @@
     "node-json2html": "^1.0.0",
     "object.observe": "^0.2.6",
     "watch": "^1.0.2",
-    "ws": "^0.7.2"
+    "ws": "^3.3.1"
   },
   "optionalDependencies": {
     "onoff": "^1.0.4",
