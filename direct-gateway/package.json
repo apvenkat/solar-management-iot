@@ -31,7 +31,7 @@
     "express": "^4.12.4",
     "getmac": "^1.4.3",
     "is-reachable": "^2.4.0",
-    "msgpack5": "^3.3.0",
+    "msgpack5": "^3.6.1",
     "node-json2html": "^1.0.0",
     "object.observe": "^0.2.6",
     "watch": "^1.0.2",
