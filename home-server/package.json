@@ -9,7 +9,7 @@
   "author": "venkat",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.3",
+    "express": "^4.17.3",
     "node-json2html": "^1.2.0",
     "request": "^2.87.0",
     "simple-json-to-html-converter": "^1.0.7",
